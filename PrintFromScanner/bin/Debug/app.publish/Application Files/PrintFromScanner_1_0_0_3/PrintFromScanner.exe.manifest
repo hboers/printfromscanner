@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrintFromScanner.exe" version="1.0.0.3" publicKeyToken="cc1eca33d1407e48" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrintFromScanner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrintFromScanner.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrintFromScanner.exe" size="12800">
+      <assemblyIdentity name="PrintFromScanner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0FsT/umBbUTUv4ayvyyXESPC9zc6EqrCsNwpC/jds8Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PrintFromScanner.exe.config" size="934">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8FjgPVblASRmIV9kBp2v3ExLcFnKOlrBxWE4K8arVAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HELMSDEEP\Gandalf" issuerKeyHash="62549a8697ef1a66e2c4062dba92aa662a5750e9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sjIh4QO/5qrGg6Z947c6L6GYKidhr2Ttb+zWb8I+qTQ=</DigestValue></Reference></SignedInfo><SignatureValue>Zf+9cYmecIOJGYCsj8wyb1v6jlq24vlrTAoiC+LeddANlRHoPjBjBeXRPMU2aBnGsi7zWfLipJsLq+AhT28ZNWsFh1DtltR2A98gWm9GHyHP/qhm8gmPjDzPBocCf073cWw4F8PKKKefDjKdahxkAQg9cYPrI9oP09KXSdtvb8g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tUln/hN66I0nCm9p9Yknwyf/q00jSsYUpOSGA3WYQjZJ36lozGQNqTxEfsqnK6ENHoiDHk5bImUgCM6TsVuCH8Zgi1S/igFQj0ebjV7U1iAICPMvnyhqvujbxtvBdJHUUcK20dxMLpMde1iHddun8MpnbEsVtlJYAFBJ9NhGfjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34a93ec26fd6ec6fed64af61272a98a12f3ab7e37da683c6aae6bf03e12132b2" Description="" Url=""><as:assemblyIdentity name="PrintFromScanner.exe" version="1.0.0.3" publicKeyToken="cc1eca33d1407e48" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HELMSDEEP\Gandalf</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F/2z4yKUPaWDQpDGvTo3Ar90Hp2TXdfOmzy0eRFeIpE=</DigestValue></Reference></SignedInfo><SignatureValue>Auy0E2Bm9BYgCp9tAgRawEvafZVY5n20iN2+x274XcDo7zxllYXKX6mADMUGSz5/yBygqmobMqJfqIWFTOLfgJLGuSJ+8CKlcmfbWFI5A1L8QLx7t/gY5Ohd94F6u0s8s5/RwW0ZA/c9pYdUkEeVl50DCg+vZM3dxtsqT4uya8Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tUln/hN66I0nCm9p9Yknwyf/q00jSsYUpOSGA3WYQjZJ36lozGQNqTxEfsqnK6ENHoiDHk5bImUgCM6TsVuCH8Zgi1S/igFQj0ebjV7U1iAICPMvnyhqvujbxtvBdJHUUcK20dxMLpMde1iHddun8MpnbEsVtlJYAFBJ9NhGfjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQSzDU6CJbSY9IHN/9fo4LwTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASABFAEwATQBTAEQARQBFAFAAXABHAGEAbgBkAGEAbABmMB4XDTE0MTIyOTAwNTcxMVoXDTE1MTIyOTA2NTcxMVowLTErMCkGA1UEAx4iAEgARQBMAE0AUwBEAEUARQBQAFwARwBhAG4AZABhAGwAZjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtUln/hN66I0nCm9p9Yknwyf/q00jSsYUpOSGA3WYQjZJ36lozGQNqTxEfsqnK6ENHoiDHk5bImUgCM6TsVuCH8Zgi1S/igFQj0ebjV7U1iAICPMvnyhqvujbxtvBdJHUUcK20dxMLpMde1iHddun8MpnbEsVtlJYAFBJ9NhGfjcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBAkszsrCJ4ur2NPD5WzxXYrtMO6e08ioJ/aGlorurqUmkclixA1D+hMkkflGCD8wyec/ccYN0nisXuY/5hBTr2LtSOKfV/F0b42Djn3ZqVLCJtJGFNCi4CAHZYBmcUqrv9k/fRvnLIoStL7AiFyfWwczuT+vDnFmORugWtSEwocw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

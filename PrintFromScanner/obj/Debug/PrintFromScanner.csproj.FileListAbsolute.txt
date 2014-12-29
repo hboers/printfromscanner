@@ -1,0 +1,14 @@
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\bin\Debug\PrintFromScanner.exe.config
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\bin\Debug\PrintFromScanner.exe
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\bin\Debug\PrintFromScanner.pdb
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.exe
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.pdb
+c:\users\robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.frmMain.resources
+C:\Users\Robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\bin\Debug\PrintFromScanner.exe.manifest
+C:\Users\Robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\bin\Debug\PrintFromScanner.application
+C:\Users\Robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.TrustInfo.xml
+C:\Users\Robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.exe.manifest
+C:\Users\Robert\documents\visual studio 2013\Projects\PrintFromScanner\PrintFromScanner\obj\Debug\PrintFromScanner.application
